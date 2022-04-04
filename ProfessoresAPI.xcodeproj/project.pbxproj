@@ -17,6 +17,8 @@
 		119DCE0B27FB5F3E0056AAB1 /* ProfessoresAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119DCE0A27FB5F3E0056AAB1 /* ProfessoresAPITests.swift */; };
 		119DCE1527FB5F3E0056AAB1 /* ProfessoresAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119DCE1427FB5F3E0056AAB1 /* ProfessoresAPIUITests.swift */; };
 		119DCE1727FB5F3E0056AAB1 /* ProfessoresAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119DCE1627FB5F3E0056AAB1 /* ProfessoresAPIUITestsLaunchTests.swift */; };
+		119DCE2427FB60240056AAB1 /* ListarProfessoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119DCE2327FB60240056AAB1 /* ListarProfessoresTableViewController.swift */; };
+		119DCE2627FB6B9A0056AAB1 /* ProfessorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119DCE2527FB6B9A0056AAB1 /* ProfessorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		119DCE1027FB5F3E0056AAB1 /* ProfessoresAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfessoresAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		119DCE1427FB5F3E0056AAB1 /* ProfessoresAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessoresAPIUITests.swift; sourceTree = "<group>"; };
 		119DCE1627FB5F3E0056AAB1 /* ProfessoresAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessoresAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		119DCE2327FB60240056AAB1 /* ListarProfessoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarProfessoresTableViewController.swift; sourceTree = "<group>"; };
+		119DCE2527FB6B9A0056AAB1 /* ProfessorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				119DCDFE27FB5F3E0056AAB1 /* LaunchScreen.storyboard */,
 				119DCE0127FB5F3E0056AAB1 /* Info.plist */,
 				119DCDF927FB5F3D0056AAB1 /* ProfessoresAPI.xcdatamodeld */,
+				119DCE2327FB60240056AAB1 /* ListarProfessoresTableViewController.swift */,
+				119DCE2527FB6B9A0056AAB1 /* ProfessorModel.swift */,
 			);
 			path = ProfessoresAPI;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 				119DCDFB27FB5F3D0056AAB1 /* ProfessoresAPI.xcdatamodeld in Sources */,
 				119DCDF527FB5F3D0056AAB1 /* ViewController.swift in Sources */,
 				119DCDF127FB5F3D0056AAB1 /* AppDelegate.swift in Sources */,
+				119DCE2627FB6B9A0056AAB1 /* ProfessorModel.swift in Sources */,
+				119DCE2427FB60240056AAB1 /* ListarProfessoresTableViewController.swift in Sources */,
 				119DCDF327FB5F3D0056AAB1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
